@@ -1,1 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+div{
+    display: grid;
+    grid-template-rows: 5rem 1fr 2rem;
+}
+
+header{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 6rem 1fr 6rem;
+    justify-items: end;
+    align-items: center;
+    border: 5px solid black;
+}
+
+main{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border: 5px solid black;
+}
+
+footer{
+    background-color: yellow;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border: 5px solid black
+}
+
+aside{
+    background-color: aqua;
+    padding: 1rem;
+    border: 5px solid black;
+}
+
+article{
+    padding: 1rem;
+    border: 5px solid black;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
